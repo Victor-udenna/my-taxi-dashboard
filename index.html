@@ -10,282 +10,368 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Home | My taxi</title>
-
-    <style>
-        body {
-            display: flex;
-            justify-content: space-around;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            width: 100%;
-            /* margin-right: 10px; */
-        }
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Outfit:wght@300;400;600&family=Poppins:wght@300;500&family=Public+Sans:wght@300;400;700&family=Wendy+One&display=swap" rel="stylesheet">
 
 
-        aside {
-            flex: 1 1 20%;
-        }
-
-        main {
-            flex: 1 1 80%;
-        }
-
-
-        aside {
-            background-color: rgba(0, 0, 0, 0.8);
-
-        }
-
-        .card-img {
-            background-color: rgba(0, 0, 0, 0.2);
-
-        }
-
-        .input-group-icon {
-            display: flex;
-            align-items: center;
-            padding: 0.375rem 0.75rem;
-            font-size: 1rem;
-            font-weight: 400;
-            line-height: 1.5;
-            color: #212529;
-            text-align: center;
-            white-space: nowrap;
-
-            border: 1px solid #ced4da;
-            border-radius: 0.25rem;
-        }
-
-        ::placeholder {
-            font-size: 22px;
-            color: #FFC30B;
-        }
-
-        .cards {
-            border-radius: 30px;
-            width: 306px;
-            height: 132px;
-        }
-
-        /* #input-header{
-width: 437px;
-height: 71px;
-border-radius: 30px;
-} */
-
-        .round-img {
-            padding: 1rem;
-            /* border-radius: 50%; */
-
-        }
-    </style>
 
 </head>
 
 <body>
 
-    <aside class="px-4  py-5">
-        <div class="header text-align-center mb-5" style="color: #FFC30B;">
-            <h1><span><i class="fas fa-taxi"></i></span> My Taxi</h1>
-        </div>
 
-        <div>
+    <main>
 
 
-
-            <div class="navigation">
-                <div class="mb-4">
-                    <button
-                        style=" width: 272px; height: 48px; background: #FFC30B; border-radius: 20px; border: none;">
-                        <span class="me-3"><img src="./images/btn-image.png" alt=""></span> <span
-                            class="me-5">Dashboard</span></button>
+        <aside class="px-4  py-5">
+            <div class="header text-align-center mb-5" style="color: #FFC30B;">
+                <h1 class="primary-font"><span><i class="fas fa-taxi"></i></span> My Taxi</h1>
+            </div>
+    
+            <div>
+    
+    
+    
+                <div class="navigation">
+                    <div class="mb-4">
+                        <button
+                            style=" width: 272px; height: 48px; background: #FFC30B; border-radius: 20px; border: none;">
+                            <span class="me-3"><img src="./images/btn-image.png" alt=""></span> <span
+                                class="me-5">Dashboard</span></button>
+                    </div>
+    
+    
+                    <div class="mb-4">
+                        <p class="text-light"><img src="./images/speedometer.svg" alt="" width="23px"> <span
+                                class="ps-2">Riders</span></p>
+                    </div>
+    
+                    <div class="mb-4 pt-3">
+                        <p class="text-light"> <img src="./images/payment.svg" alt=""> <span class="ps-2">Payment Details
+                            </span></p>
+                    </div>
+    
+                    <div class="mb-4 pt-3">
+                        <p class="text-light"><img src="./images/building.svg" alt=""> <span class="ps-3">Learning Centers
+                        </p>
+                    </div>
+    
+    
+                    <div class="mb-4 pt-3">
+                        <p class="text-light"> <img src="./images/chat-text.svg" alt="" width="23px"> <span class="ps-2">
+                                FAQs </span></p>
+                    </div>
+    
+    
+                    <div class="mb-4 pt-3">
+                        <p class="text-light"><img src="./images/gear.svg" alt="" width="23px"> <span class="ps-2">Settings
+                            </span> </p>
+                    </div>
                 </div>
+            </div>
+    
+    
+            <div class="log-out" style="margin-top: 50%;">
+                <p class="text-light ms-5 mb-0"><img src="./images/log-out.svg" alt=""> <span class="ps-2"> Logout</span>
+                </p>
+            </div>
+        </aside>
 
 
-                <div class="mb-4">
-                    <p class="text-light"><img src="./images/speedometer.svg" alt="" width="23px"> <span
-                            class="ps-2">Riders</span></p>
-                </div>
 
-                <div class="mb-4 pt-3">
-                    <p class="text-light"> <img src="./images/payment.svg" alt=""> <span class="ps-2">Payment Details
-                        </span></p>
-                </div>
 
-                <div class="mb-4 pt-3">
-                    <p class="text-light"><img src="./images/building.svg" alt=""> <span class="ps-3">Learning Centers
+
+
+        <section class="pe-3" id="main-content">
+
+
+            <nav class="d-flex  justify-content-between  align-items-center text-light ps-3 pe-1 mt-4">
+    
+                <div class="header-text" style="font-size: 23px;">
+                    <p>
+                        Hi Kishan
                     </p>
+    
+                    <p>
+                        Welcome to <span style="font-size: 24px; color: #FFC30B; font-weight: 400;" class="primary-font">My TAXI DASHBOARD</span>
+                    </p>
+    
                 </div>
-
-
-                <div class="mb-4 pt-3">
-                    <p class="text-light"> <img src="./images/chat-text.svg" alt="" width="23px"> <span class="ps-2">
-                            FAQs </span></p>
+    
+    
+    
+    
+    
+                <div>
+                    <div class="form-floating">
+                        <input type="email" class="input-nav form-control pb-5" id="floatingInput" placeholder=".">
+                        <label for="floatingInput" class="primary-font"> <span class="me-1 mt-0"><img src="./images/search.svg" alt=""></span> Search</label>
+                      </div>
                 </div>
+    
+    
+            </nav>
 
-
-                <div class="mb-4 pt-3">
-                    <p class="text-light"><img src="./images/gear.svg" alt="" width="23px"> <span class="ps-2">Settings
-                        </span> </p>
+    
+    
+    
+            <section class="row text-light">
+    
+    
+    
+    
+                <div class="row gy-3 col-6 ms-3">
+    
+    
+                    <div class="d-flex rounded justify-content-around align-items-center col-6 card-img"
+                        style="width: 47%;">
+    
+                        <div class="text-light">
+                            <h6>Spent this month</h6>
+                            <h4>$682.5</h4>
+                        </div>
+    
+                        <div
+                            style="padding: 1.4rem; border-radius: 50%; background-color: black; width: 100px; height: 100px;">
+                            <img src="./images/calendar4.svg" alt="" width="41px">
+                        </div>
+    
+                    </div>
+    
+    
+    
+    
+    
+                    <div class="d-flex rounded justify-content-around align-items-center col-6 ms-3 card-img "
+                        style="width: 47%;">
+    
+                        <div
+                            style="padding: 1.4rem; border-radius: 50%; background-color: black; width: 100px; height: 100px;">
+                            <img src="./images/bar-chart-fill.svg" alt="" width="41px">
+                        </div>
+    
+                        <div class="text-light">
+                            <h6>Earnings</h6>
+                            <h4>$350.4</h4>
+                        </div>
+    
+                    </div>
+    
+    
+    
+    
+                    <div class="d-flex rounded justify-content-around align-items-center col-6 card-img "
+                        style="width: 47%;">
+    
+                        <div
+                            style="padding: 1.4rem; border-radius: 50%; background-color: black; width: 100px; height: 100px;">
+                            <img src="./images/people-fill.svg" alt="" width="41px">
+                        </div>
+    
+                        <div class="text-light">
+                            <h6>New clients</h6>
+                            <h4>321</h4>
+                        </div>
+    
+                    </div>
+    
+    
+    
+    
+                    <div class="d-flex rounded justify-content-around align-items-center col-6 ms-3 card-img "
+                        style="width: 47%;">
+    
+                        <div class="text-light">
+                            <h6>Activities</h6>
+                            <h4>$540.50</h4>
+                        </div>
+    
+                        <div
+                            style="padding: 1.4rem; border-radius: 50%; background-color: black; width: 100px; height: 100px;">
+                            <img src="./images/bar-chart-fill.svg" alt="" width="41px">
+                        </div>
+    
+                    </div>
+    
+    
+    
+    
+    
+    
+    
                 </div>
-            </div>
+    
+    
+    
+    
+    
+    
+                <article class="col-6 mt-3 d-flex flex-column justify-content-evenly  ms-2 rounded" style="height: 281px;  margin-left: -5px; margin-right: 10px; width: 48%;">
+                    <h2 class="text-center text-warning primary-font" style="font-size: 32px;">INFORMATION FOR DRIVERS</h2>
+    
+        
+                        <div class="d-flex justify-content-between border-bottom">
+                            <p>  <span class="me-2"><img src="./images/calendar4.svg" alt=""></span> How to manage time and get good marks for trips   </p> <span><img src="./images/arrow.png" alt=""></span>
+                        </div>
+    
+                        <div class="d-flex justify-content-between border-bottom">
+                            <p>   <span class="me-2"><img src="./images/clock-history.svg" alt=""></span> How to regulate transactions overtime </p>  <span><img src="./images/arrow.png" alt=""></span>
+                        </div>
+    
+                        <div class="d-flex justify-content-between">
+                            <p> <span class="me-2"> <img src="./images/cash.svg" alt=""></span> Withdrawing money through ATM </p> <span><img src="./images/arrow.png" alt=""></span>
+    
+                        </div>
+    
+            
+                </article>
+    
+    
+    
+            </section>
+
+
+
+
+     <section class="row gx-2 gy-3 mt-3 ms-3 justify-content-between">
+
+  
+
+
+        <div class="col-4 details rounded" style="height: 365px; width: 32%;">
+
+<div class="d-flex flex-column align-items-center rounded mb-4">
+    <h5 class="text-light mb-2 mt-4" style="font-size: 23px;">This month earnings</h5>
+    <p class="text-light h4 mb-3">$682.5</p>
+    <h6  class="text-warning p-2 rounded-pill" style="background-color:rgba(255, 255, 0, 0.16); font-size: 13px;">+2.45%</h6>
+
+</div>
+          <div class="pt-3">
+            <img src="./images/triangle graph.png" alt="" width="100%" class="mt-4">
+          </div>
+         </div>
+
+
+
+
+
+         <div class="col-4 rounded details text-light" style="height: 365px;" width="32%">
+     <h2 class="ms-3 pt-2 primary-font">YOUR TRANSFERS</h2>
+
+    
+     <div class=" d-flex justify-content-between vertical-align-center py-2 px-3 ms-1 my-2">
+
+     <div class="d-flex">
+         <img src="./images/avatar.png" alt="" width="40px" height="40px" class="d-inline me-2">
+         <div class="d-flex flex-column">
+             <h4 class="mb-0 h5">From Kishan Sheth</h4>
+             <span class="ps-1">Today, 16:37</span>
+         </div>
+     </div>
+
+     <div class="d-flex vertical-align-center text-warning">
+        <span class="mt-2 mt-1 h6  px-3 py-2 rounded-pill" style="background-color: #ffc20b2b; font-size: 13px;"> + $50 </span>
+     </div>
+
+     </div>
+
+
+     <div class=" d-flex justify-content-between vertical-align-center py-2 px-3 ms-1 my-2">
+
+     <div class="d-flex">
+        <img src="./images/avatar.png" alt="" width="40px" height="40px" class="d-inline me-2">
+         <div class="d-flex flex-column">
+             <h4 class="mb-0 h5">To Luara Santos</h4>
+             <span class="ps-1">Today, 16:37</span>
+         </div>
+     </div>
+
+     <div class="d-flex vertical-align-center text-warning">
+         <span class="mt-2 mt-1 h6  px-3 py-2 rounded-pill " style="background-color: #ffc20b2b; font-size: 13px;"> - $20  </span>
+     </div>
+
+     </div>
+
+
+
+
+
+     <div class=" d-flex justify-content-between vertical-align-center py-2 px-3 ms-1 my-2">
+
+     <div class="d-flex">
+        <img src="./images/avatar.png" alt="" width="40px" height="40px" class="d-inline me-2">
+         <div class="d-flex flex-column">
+             <h4 class="mb-0 h5">From Kishan Sheth</h4>
+             <span class="ps-1">Today, 16:37</span>
+         </div>
+     </div>
+
+     <div class="d-flex vertical-align-center text-warning">
+        <span class="mt-2 mt-1 h6  px-3 py-2 rounded-pill" style="background-color: #ffc20b2b; font-size: 13px;"> +$150 </span>
+     </div>
+
+     </div>
+
+
+     
+        <div class="text-end text-warning pt-3 me-1">
+            <p style="font-size: 20px; font-weight: 700;">View all <span> <img src="./images/arrow 2.png" alt="" width="18.41px" height="15.41px"></span></p>
         </div>
 
+         </div>
 
-        <div class="log-out" style="margin-top: 50%;">
-            <p class="text-light ms-5 mb-0"><img src="./images/log-out.svg" alt=""> <span class="ps-2"> Logout</span>
-            </p>
-        </div>
-    </aside>
 
 
 
-    <main class="bg-dark">
 
 
-        <header class="d-flex  justify-content-between  aling-items center bg-dark text-light">
 
-            <div class="header-text" style="font-size: 23px;">
-                <p>
-                    Hi Kishan
-                </p>
+         <div class="col-4 pt-5 text-light rounded details" style="height: 365px;" width="32%">
 
-                <p>
-                    Welcome to <span style="font-size: 24px; color: #FFC30B; font-weight: 400;">My TAXI DASHBOARD</span>
-                </p>
+<div class=" d-flex flex-column align-items-center">
+    <div class="mb-2">
+        <img src="./images/avatar2.png" alt="">
+    </div>
+    
+    
+    <div class="text mb-2">
+        <h2 class="primary-font"> KISHAN SHETH</h2>
+    
+    <h5 class="ms-4 primary-font"><span><img src="./images/geo-alt.svg" alt=""></span>NEW YORK, USA</h5>
+    
+    </div>
+</div>
 
-            </div>
 
+<div class="text-seconday d-flex justify-content-around h5 px-4">
 
+    <div>
+<p>Days at work</p>
+<p class="text-center">28</p>
+    </div>
 
 
 
-            <div class="mt-5">
-                <div class="input-group flex-nowrap" id>
-                    <span class="input-group-icon" id="addon-wrapping"><img src="./images/search.svg" alt=""></span>
-                    <input type="search" class="" placeholder="SEARCH" aria-label="search"
-                        aria-describedby="addon-wrapping">
-                </div>
-            </div>
+    <div>
+<p>Rides</p>
+<p class="text-center">427</p>
+    </div>
 
 
-        </header>
 
+    <div>
+<p>Hours</p>
+<p class="text-center">76</p>
+    </div>
+</div>
+    
 
+</div>
 
-        <section class="row text-light">
 
-
-
-
-            <div class="row gy-3 col-6 ms-2">
-
-
-                <div class="w-10 d-flex rounded justify-content-around align-items-center col-6 card-img "
-                    style="width: 40%;">
-
-                    <div class="text-light">
-                        <h6>Spent this month</h6>
-                        <h4>$682.5</h4>
-                    </div>
-
-                    <div
-                        style="padding: 1.4rem; border-radius: 50%; background-color: black; width: 100px; height: 100px;">
-                        <img src="./images/calendar4.svg" alt="" width="41px">
-                    </div>
-
-                </div>
-
-
-
-
-
-                <div class="d-flex rounded justify-content-around align-items-center col-6 ms-3 card-img "
-                    style="width: 40%;">
-
-                    <div
-                        style="padding: 1.4rem; border-radius: 50%; background-color: black; width: 100px; height: 100px;">
-                        <img src="./images/bar-chart-fill.svg" alt="" width="41px">
-                    </div>
-
-                    <div class="text-light">
-                        <h6>Earnings</h6>
-                        <h4>$350.4</h4>
-                    </div>
-
-                </div>
-
-
-
-
-                <div class="d-flex rounded justify-content-around align-items-center col-6 card-img "
-                    style="width: 40%;">
-
-                    <div
-                        style="padding: 1.4rem; border-radius: 50%; background-color: black; width: 100px; height: 100px;">
-                        <img src="./images/people-fill.svg" alt="" width="41px">
-                    </div>
-
-                    <div class="text-light">
-                        <h6>New clients</h6>
-                        <h4>321</h4>
-                    </div>
-
-                </div>
-
-
-
-
-                <div class="d-flex rounded justify-content-around align-items-center col-6 ms-3 card-img "
-                    style="width: 40%;">
-
-                    <div class="text-light">
-                        <h6>Activities</h6>
-                        <h4>$540.50</h4>
-                    </div>
-
-                    <div
-                        style="padding: 1.4rem; border-radius: 50%; background-color: black; width: 100px; height: 100px;">
-                        <img src="./images/bar-chart-fill.svg" alt="" width="41px">
-                    </div>
-
-                </div>
-
-
-
-
-
-
-
-            </div>
-
-
-
-
-
-
-            <article class="col-6 mt-3 d-flex flex-column"
-                style="height: 281px; background-color: rgba(0, 0, 0, 0.8); margin-left: -50px;">
-                <h2 class="text-center text-warning" style="font-size: 32px;">INFORMATION FOR DRIVERS</h2>
-
-                <div class="activity-text text-light">
-                    <div>
-                        <p>  <span><img src="./images/calendar4.svg" alt=""></span> How to manage time and get good marks for trips  <span><img src="./images/arrow.png" alt=""></span> </p>
-                    </div>
-
-                    <div>
-                        <p>   <span><img src="./images/clock-history.svg" alt=""></span> How to regulate transactions overtime <span><img src="./images/arrow.png" alt=""></span></p>
-                    </div>
-
-                    <div>
-                        <p> <span><img src="./images/cash.svg" alt=""></span> Withdrawing money through ATM <span><img src="./images/arrow.png" alt=""></span></p>
-
-                    </div>
-
-                </div>
-            </article>
-
+</div>
+         
+     </section>
 
 
         </section>
@@ -295,28 +381,9 @@ border-radius: 30px;
 
 
 
-        <!-- <section class="">
-
-            <div class="text-align-center">
-                <h3>This month earnings</h3>
-                <h4>$682.5</h4>
-                <p>+2.45%</p>
-            </div>
-
-            <div>
-                <h2>YOUR TRANSFERS</h2>
-            </div>
 
 
-
-            <div>
-                <h2>KISHAN SHETH</h2>
-                <h5> <span><img src="./images/geo-alt.svg" alt=""></span> NEW YORK, USA</h5>
-            </div>
-
-        </section> -->
-
-    </main>
+        </main>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"

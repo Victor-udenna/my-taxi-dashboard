@@ -1,17 +1,21 @@
+
+
 main {
     display: flex;
     justify-content: space-around;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: 100%;
-    /* background-color: black; */
-    /* margin-right: 10px; */
+    background-color: black;
+    margin-bottom: 0;
+
 }
+
 
 
 aside {
     flex: 1 1 20%;
+   
     background-color: rgb(46, 47, 46)
 }
 
@@ -48,8 +52,16 @@ main .details{
     width: 437px;
     height: 71px;
     border-radius: 30px;
+    background-color: rgb(46, 47, 46) ! important;
+    border: none;
     /* padding-bottom: 50px; */
 }
+
+/* input{
+    background-color: rgb(46, 47, 46);
+} */
+
+
 
 
 label {
@@ -65,6 +77,34 @@ label {
     font-family: 'Wendy One', sans-serif;
 
 }
+
+
+.btn-sidebar{
+    width: 272px; 
+    height: 48px; 
+    /* background: #FFC30B; */
+    background-color: rgb(46, 47, 46);
+    color: white;
+    border-radius: 20px; 
+    border: none;    
+}
+
+.btn-active{
+    background: #FFC30B;
+    color: black;  
+}
+
+.btn-sidebar:hover{
+    background: #FFC30B;
+    color: black;
+    fill: black; 
+}
+
+.btn-sidebar svg:hover{
+fill: black;
+}
+
+
 
 
 .cards {
@@ -84,3 +124,8 @@ border-radius: 30px;
     /* border-radius: 50%; */
 
 }
+
+
+/* @media screen and (min-width: 1440px){
+
+} */

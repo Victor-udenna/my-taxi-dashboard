@@ -82,35 +82,46 @@ label {
 .btn-sidebar{
     width: 272px; 
     height: 48px; 
-    /* background: #FFC30B; */
     background-color: rgb(46, 47, 46);
     color: white;
     border-radius: 20px; 
-    border: none;    
+    border: none;
+    text-align: center;
+    padding: 4%;
+    cursor: pointer;    
 }
 
-.btn-active{
+/* .btn-active{
     background: #FFC30B;
-    color: black;  
-}
+    color: black;   
+}  */
+
 
 .btn-sidebar:hover{
     background: #FFC30B;
     color: black;
-    fill: black; 
+    fill: black !important; 
 }
 
-.btn-sidebar svg:hover{
+/* .btn-sidebar svg:hover{
 fill: black;
+} */
+
+
+
+
+.card-img{
+    border-radius: 30px;
+    color: white;
+    width: 48%;
+    height: 132px;
+    cursor: pointer;
+    
 }
 
-
-
-
-.cards {
-    border-radius: 30px;
-    width: 306px;
-    height: 132px;
+.card-img:hover{
+    color: black;
+    background-color: #FFC30B;
 }
 
 /* #input-header{

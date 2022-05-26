@@ -234,11 +234,23 @@ article p{
   margin: auto;
 }
 
+.rate2{
+  height: 25px;
+  width: 50px;
+  text-align: center;
+  border-radius: 30px;
+  background-color: rgba(248, 199, 49, 0.12);
+  padding-top: 5px;
+  font-size: 10px;
+}
+
 
 .card2{
   border-radius: 30px;
   font-weight: 700;
   height: 390px;
+  width: 32%;
+  background-color: rgb(46, 47, 46);
 }
 
 .card2 h5{
@@ -252,10 +264,36 @@ article p{
 }
 
 
+.card2-h4{
+  font-size:16px;
+  font-family: "Permanent Marker", cursive;
+  color: #ffc30b;
+}
+
+
+.avatar-img1{
+  width: 40px;
+  height: 40px;
+}
+
+.cardfont-1{
+  font-size: 20px ;
+}
+
+.avatar2{
+  width: 35px;
+  height: 35px;
+}
+
+.card-h6{
+  font-size: 12px;
+}
+
+
+
+
 @media screen and (min-width: 1300px) {
-  aside {
-    font-size: 18px;
-  }
+
 
   .btn-text {
     margin-right: 22%;
@@ -312,6 +350,11 @@ article p{
 
 .card2{
   height: 400px;
+}
+
+.avatar2{
+  width: 50px;
+  height: 50px;
 }
 
 

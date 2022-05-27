@@ -77,6 +77,7 @@ input {
 ::placeholder {
   color: #ffc30b !important;
   font-family: "Permanent Marker", cursive;
+  font-size: 20px;
 }
 
 .header-text {
@@ -126,7 +127,7 @@ aside {
 .primary-font {
   color: #ffc30b;
   font-family: "Permanent Marker", cursive;
-  font-size: 1.5rem;
+  font-size: 28px;
 }
 
 .btn-sidebar {
@@ -289,6 +290,12 @@ article p{
   font-size: 12px;
 }
 
+.header-text .primary-font{
+  font-size: 20px;
+}
+
+
+
 
 
 
@@ -357,7 +364,26 @@ article p{
   height: 50px;
 }
 
+.primary-font {
+  color: #ffc30b;
+  font-family: "Permanent Marker", cursive;
+  font-size: 32px;
+}
 
+
+::placeholder {
+  color: #ffc30b !important;
+  font-family: "Permanent Marker", cursive;
+  font-size: 23px;
+}
+
+.header-text .primary-font{
+  font-size: 24px;
+}
+
+aside .header h1{
+  font-size: 32px;
+}
 
 }
 
@@ -389,6 +415,22 @@ article p{
   .card2{
     height: 410px;
   }
+
+
+  ::placeholder {
+    color: #ffc30b !important;
+    font-family: "Permanent Marker", cursive;
+    font-size: 32px;
+  }
+
+  .header-text .primary-font{
+    font-size: 24px;
+  }
+
+  aside .header h1{
+    font-size: 40px;
+  }
+
 
 }
 

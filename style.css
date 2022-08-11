@@ -22,16 +22,6 @@ main .details {
   font-size: 24px;
 }
 
-/* .input-nav{
-    min-width: 100%;
-    width: 300px;
-    height: 61px;
-    border-radius: 20px;
-    background-color: rgb(46, 47, 46) ! important;
-    border: none;
-    
-} */
-
 nav {
   display: flex;
   align-items: flex-end;
@@ -52,11 +42,7 @@ nav .primary-font {
   cursor: pointer;
 }
 
-/* .input-group{
-  border-radius: none;
-  align-items: center;
-    margin-left: 50%;
-} */
+
 
 .input-group {
   position: relative;
@@ -81,7 +67,6 @@ input {
 }
 
 .header-text {
-  /* margin-right: 40%; */
   width: 70%;
 }
 
@@ -94,7 +79,6 @@ label {
   color: #ffc30b;
   margin-left: 30px;
   margin-bottom: 20px;
-  /* padding-bottom: 20px; */
 }
 
 header h1 {
@@ -116,7 +100,6 @@ aside {
 
 .card-img {
   background-color: rgb(46, 47, 46);
-  /* color: black; */
 }
 
 .btn-text {
@@ -142,10 +125,6 @@ aside {
   cursor: pointer;
 }
 
-/* .btn-sidebar span{
-    width: 50%;
-} */
-
 .btn-active {
   background: #ffc30b;
   color: black;
@@ -157,9 +136,6 @@ aside {
   fill: black !important;
 }
 
-/* .card-container-1{
-    flex: 1 1 50%;
-} */
 
 .card-img-container {
   margin-top: 0px;
@@ -209,13 +185,6 @@ article p{
 }
 
 
-/* .icon-background{
-    padding: 0.8rem;
-    border-radius: 50%;
-    background-color: black;
-    width: 30%;
-} */
-
 .dashboard {
   display: flex;
   justify-content: space-evenly;
@@ -228,7 +197,6 @@ article p{
 .rate{
   height: 33px;
   width: 72px;
-  /* padding:/; */
   text-align: center;
   border-radius: 30px;
   background-color: rgba(248, 199, 49, 0.12);
@@ -306,13 +274,6 @@ article p{
     margin-right: 22%;
   }
 
-  /* .input-nav{
-        min-width: 100%;
-      
-
-        
-    } */
-
   .input-group-text {
     width: 437px;
     height: 71px;
@@ -328,7 +289,7 @@ article p{
     color: #ffc30b;
     margin-left: 30px;
     margin-bottom: 20px;
-    /* padding-bottom: 20px; */
+
   }
 
   .card-img {
@@ -434,6 +395,3 @@ aside .header h1{
 
 }
 
-/* @media screen and (min-width: 1440px){
-
-} */
